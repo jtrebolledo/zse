@@ -233,7 +233,7 @@ def update_framework_database(
     cif_dir: Path = DEFAULT_CIF_DIR,
     db_path: Path = DEFAULT_DB_PATH,
     url: str = IZA_TABLE_URL,
-    max_ring: int = 12,
+    max_ring: int = 16,
 ) -> list[str]:
     """Full update: refresh the saved code list, download the CIF for every
     newly discovered framework code, then add each of those to frameworks.db.
